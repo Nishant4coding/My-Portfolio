@@ -1,0 +1,100 @@
+/* for all .details buttons */
+.details button {
+ 
+  --color: rgb(255, 0, 115);
+  background: linear-gradient(to left, white, rgb(118, 255, 209) );
+  font-family: inherit;
+  display: inline-block;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 17px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+  margin-left: auto;
+}
+
+.details button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.details button:hover {
+  color: white;
+}
+
+.details button:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+.details button:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+/* .details buttons ends */
+.main{
+  /* display: block; */
+  box-sizing: border-box;
+  background: rgb(70, 250, 202);
+  margin: 0 auto;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  
+
+}
+/* background: rgb(84, 255, 255); */
+
+.Info
+    {
+    background: rgba(255, 255, 255, 0.8);
+      /* margin-top: 100px; */
+      
+    padding: 3em;
+    border-radius: 2em;
+    position:relative;
+   
+    z-index: 1;
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.03);
+  }
+
+  .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile p{
+    text-align: justify;
+  }
+  .pic img{
+    width: 170px;
+    /* height: 200px; */
+    border-radius: 50px 15px;
+    /* align-items: center; */
+    /* margin-left: 75px; */
+  }
+
+  p{
+    font-size: 20px;
+  }
+ 
+  @media screen and (max-width: 800px) {
+    .main{
+      flex-direction: column;
+    }
+  }

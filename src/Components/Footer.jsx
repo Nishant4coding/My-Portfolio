@@ -12,7 +12,7 @@ export default function Footer() {
    <a href="https://wa.me/+918005151678"> <img   src="./Icons/whatsapp.png"/></a>
   <a href="https://www.linkedin.com/in/nishant-srivastava-74a8b6205/"><img   src="./Icons/linkedin.png"/></a>
   <a href="https://github.com/Nishant4coding"><img   src="./Icons/github.png" /></a>
-      <p>All Right Reserved @ Nishant Srivastava</p>
+      <footer>All Right Reserved @ Nishant Srivastava</footer>
 </div>
       </div>
     </div>

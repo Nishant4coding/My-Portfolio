@@ -10,6 +10,29 @@ export default function Project() {
           <div className="project">
             <div className="card details">
               <img
+                src="./Projects/extra.png"
+                alt="Image"
+                className="card-img"
+              />
+              <div className="card-content">
+                <h3 className="card-title">Dev-Resume</h3>
+                <p className="card-text">
+                  "DevResume" a React.js and Chakra UI powered resume builder
+                  website tailored for developers. With its basic templates,
+                  DevResume simplifies the process of creating professional
+                  resumes, allowing developers to effectively highlight their
+                  skills and experience for better career opportunities.
+                </p>
+                <a href="https://nishant4coding.github.io/Dev-Resume/">
+                  <button>
+                    {" "}
+                    <b>Repository</b>{" "}
+                  </button>{" "}
+                </a>
+              </div>
+            </div>
+            <div className="card details">
+              <img
                 src="./Projects/meetup.png"
                 alt="Image"
                 className="card-img"

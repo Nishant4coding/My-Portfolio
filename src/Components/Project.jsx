@@ -10,7 +10,7 @@ export default function Project() {
           <div className="project">
             <div className="card details">
               <img
-                src="./Projects/Dev-Resume.png"
+                src="./Projects/Dev-Resume.jpg"
                 alt="Image"
                 className="card-img"
               />

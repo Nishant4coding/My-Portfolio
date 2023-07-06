@@ -10,7 +10,7 @@ export default function Project() {
           <div className="project">
             <div className="card details">
               <img
-                src="./Projects/extra.png"
+                src="./Projects/Dev-Resume.png"
                 alt="Image"
                 className="card-img"
               />
@@ -143,23 +143,7 @@ export default function Project() {
                 </a>
               </div>
             </div>
-            <div className="card details">
-              <img
-                src="./Projects/extra.png"
-                alt="Image"
-                className="card-img"
-              />
-              <div className="card-content">
-                <h3 className="card-title">Tribute Page</h3>
-                <p className="card-text"></p>
-                <a href="https://github.com/Nishant4coding/Tribute-Page">
-                  <button>
-                    {" "}
-                    <b>Repository</b>{" "}
-                  </button>{" "}
-                </a>
-              </div>
-            </div>
+        
             {/* <div className="card details">
               <img src="./Projects/ytbp.png" alt="Image" className="card-img"/>
                   <div className="card-content">

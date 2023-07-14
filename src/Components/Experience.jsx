@@ -10,7 +10,7 @@ function Experience() {
           <div className="exp-card">
             <img src="./Icons/TULIP.jpg" alt="Image" className="card-img" />
             <div className="card-content">
-              <h3 className="card-title">Web Developer</h3>
+              <h3 className="card-title">Web Developer Intern</h3>
               <header>DAY-NULM TULIP</header>
               <p className="card-text">July 2023-Present</p>
             </div>

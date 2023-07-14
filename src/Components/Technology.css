@@ -20,6 +20,8 @@
 .icons {
   margin-bottom: 10px;
   margin-top: -20px;
+  display: inline-block; /* or any other appropriate display property */
+  transition: transform 0.2s;
 }
 .icons img {
   margin: 10px;
@@ -103,6 +105,9 @@ ul.time-line.li::before{
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+.icons:hover{
+  transform: scale(1.1);
 }
 
 /* When you mouse over the container, fade in the overlay title */

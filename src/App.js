@@ -6,6 +6,7 @@ import Education from "./Components/Education";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Experience from "./Components/Experience";
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
         image="./Nishant Srivastava.jpg"
       />
 <Technology/>
+<Experience/>
 <Project/>
-      {/* <Education/> */}
+
     <Contact/>
     <Footer/>
     </>

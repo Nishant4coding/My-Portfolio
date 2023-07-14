@@ -42,8 +42,8 @@
   .contact-form input:focus, .contact-form textarea:focus {
     outline: none;
     box-shadow: 0 0 5px #ff6384;
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out;
   }
   
   .contact-form button[type="submit"] {
@@ -57,8 +57,8 @@
   }
   
   .contact-form button[type="submit"]:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out;
   }
   
 /* .icons{

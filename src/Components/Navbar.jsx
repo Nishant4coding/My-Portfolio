@@ -60,7 +60,7 @@ import Project from "./Project";
                 <a href="#skills"> Skills   </a>
               </li>
               <li>
-                <a href="#contact"> Experience   </a>
+                <a href="#experience"> Experience   </a>
               </li>
               <li>
                 <a href="#contact"> Contact   </a>

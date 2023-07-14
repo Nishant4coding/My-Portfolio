@@ -1,7 +1,15 @@
 
 .icon{
     text-align: center;
-    
+}
+   
+.foot{
+    display: inline-block;
+    transition: transform 0.2s;    
+}
+
+.foot:hover{
+    transform: scale(1.2);
 }
 img{
     width: 80px;

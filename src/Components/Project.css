@@ -12,8 +12,11 @@
   overflow: hidden;
   width:320px;
   height: 600px;
-
-  display: inline-block;
+  display: inline-block; 
+  transition: transform 0.2s;
+}
+.card:hover{
+  transform: scale(1.1);
 }
 
 .card-img {

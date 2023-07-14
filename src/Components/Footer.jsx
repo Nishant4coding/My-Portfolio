@@ -8,12 +8,12 @@ export default function Footer() {
         <div className='footer'>
       <div className='icon'>
 
-<a href="https://www.instagram.com/srivastava4nishant/"><img src={"./Icons/instagram.png"}/></a>
-   <a href="https://wa.me/+918005151678"> <img   src="./Icons/whatsapp.png"/></a>
-  <a href="https://www.linkedin.com/in/nishant-srivastava-74a8b6205/"><img   src="./Icons/linkedin.png"/></a>
-  <a href="https://github.com/Nishant4coding"><img   src="./Icons/github.png" /></a>
-      <footer>All Right Reserved @ Nishant Srivastava</footer>
+<a href="https://www.instagram.com/srivastava4nishant/" className='foot'><img src={"./Icons/instagram.png"}/></a>
+   <a href="https://wa.me/+918005151678" className='foot'> <img   src="./Icons/whatsapp.png"/></a>
+  <a href="https://www.linkedin.com/in/nishant-srivastava-74a8b6205/" className='foot'><img   src="./Icons/linkedin.png"/></a>
+  <a href="https://github.com/Nishant4coding" className='foot'><img   src="./Icons/github.png" /></a>
 </div>
+      <footer>All Right Reserved @ Nishant Srivastava</footer>
       </div>
     </div>
     </div>

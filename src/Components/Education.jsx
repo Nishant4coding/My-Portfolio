@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Intro.css"
 import "./Technology.css"
+
 export default function Education() {
   return (
     <div>

@@ -9,9 +9,17 @@ function Contact() {
 
   const [state, handleSubmit] = useForm("meqbqwdv");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+    return (
+      <div className="main" id="contact">
+        <div className="Info-2">
+          <div className="success-message">
+            <span className="heading">Message Sent Successfully!</span>
+            <p>Thank you for contacting us. We will get back to you soon.</p>
+          </div>
+        </div>
+      </div>
+    );
   }
-
   const email = 'srivastava4nishant@gmail.com';
   const subject = 'Query from Portfolio';
   const body = 'message';
@@ -65,6 +73,7 @@ function Contact() {
       <button type="submit" disabled={state.submitting}>
         <header>Submit</header>
       </button>
+
     </form>
 </div>
 

@@ -25,6 +25,10 @@
   .contact-form label {
     margin-bottom: 10px;
   }
+  .heading{
+    font-size: 18px;
+    font-weight: 500;
+  }
   
   textarea {
     resize: none;

@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { useState } from 'react'
 import Technology from "./Technology";
 import { a } from 'react-router-dom';
+import Project from "./Project";
 
 
   const Navbar = () => {
@@ -52,14 +53,14 @@ import { a } from 'react-router-dom';
                 <a href="#home">
                    Home   </a>
               </li>
-              {/* <li>
-                <a href="#home"> Blog   </a>
-              </li> */}
               <li>
-                <a href="#project"> Projects   </a>
+                <a href='#project'> Projects   </a>
               </li>
               <li>
                 <a href="#skills"> Skills   </a>
+              </li>
+              <li>
+                <a href="#contact"> Experience   </a>
               </li>
               <li>
                 <a href="#contact"> Contact   </a>

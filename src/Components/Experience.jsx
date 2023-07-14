@@ -8,7 +8,7 @@ function Experience() {
                 <h1>Work Experience</h1>
             <div className='exp-card'>
             <img
-                src="./Projects/TULIP.jpeg"
+                src="./Icons/TULIP.jpeg"
                 alt="Image"
                 className="card-img"
               />

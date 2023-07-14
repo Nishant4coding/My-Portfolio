@@ -37,7 +37,7 @@ function Experience() {
             </div>
             <div className='exp-card'>
             <img
-                src="./Icons/NASA.jpg"
+                src="./Icons/NASA.jpeg"
                 alt="Image"
                 className="card-img"
               />

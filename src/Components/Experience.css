@@ -1,3 +1,10 @@
+.experience{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .exp-card{
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -27,8 +34,36 @@
     margin-top: 0;
     font-size: 24px;
   }
+
+  header{
+    font-weight: 800;
+    font-size: 18px;
+  }
   
   .card-text {
     margin-bottom: 20px;
     font-size: 16px;
   }
+
+
+  @media only screen and (max-width: 600px){
+    .exp-card{
+      width: 320px;
+      height: auto;
+      margin-left:0 ;
+      margin-right:0;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* @media only screen and (width:350px){
+    .exp-card{
+        width: 250px;
+    }
+    .experience{
+        margin: auto;
+        align-items: center;
+        justify-content:center ;
+    }
+  } */
+

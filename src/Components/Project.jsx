@@ -57,7 +57,7 @@ export default function Project() {
             </div>
             <div className="card details">
               <img
-                src="./Projects/Musicker.png"
+                src="./Projects/Musicker.jpg"
                 alt="Image"
                 className="card-img"
               />

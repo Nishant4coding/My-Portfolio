@@ -13,7 +13,7 @@ function Experience() {
               <h3 className="card-title">Web Developer Intern</h3>
               <header>DAY-NULM TULIP </header>
               <h4>Ministry of Urban and Housing Affairs </h4>
-              <p className="card-text">July 2023-Present</p>
+              <p className="text">July 2023-Present</p>
             </div>
           </div>
           <div className="exp-card">
@@ -21,7 +21,7 @@ function Experience() {
             <div className="card-content">
               <h3 className="card-title">Open Source Contributor</h3>
               <header>Girl Script Summer of Code 2023</header>
-              <p className="card-text">May 2023-Present</p>
+              <p className="text">May 2023-Present</p>
             </div>
           </div>
           <div className="exp-card">
@@ -29,7 +29,7 @@ function Experience() {
             <div className="card-content">
               <h3 className="card-title">Front-End Developer (Team Abhedya)</h3>
               <header>NASA Space Apps Challenge</header>
-              <p className="card-text">Oct 2022</p>
+              <p className="text">Oct 2022</p>
             </div>
           </div>
           <div className="exp-card">
@@ -41,7 +41,7 @@ function Experience() {
               <header>
                 Entrepreneurship Cell <br /> Galgotias University
               </header>
-              <p className="card-text">Sept 2022-Present</p>
+              <p className="text">Sept 2022-Present</p>
             </div>
           </div>
           <div className="exp-card">
@@ -49,7 +49,7 @@ function Experience() {
             <div className="card-content">
               <h3 className="card-title">Open Source Contributor</h3>
               <header>Social Summer of Code 2023</header>
-              <p className="card-text">May 2023-Present</p>
+              <p className="text">May 2023-Present</p>
             </div>
           </div>
         </div>

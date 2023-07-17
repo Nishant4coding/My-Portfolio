@@ -1,5 +1,6 @@
 .project{
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,7 +17,7 @@
   transition: transform 0.2s;
 }
 .card:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .card-img {
@@ -37,10 +38,11 @@
 .card-text {
   margin-bottom: 20px;
   font-size: 16px;
+  text-align: justify;
 }
 button{
   bottom: 0px;
-  margin-bottom: 0%;
+  bottom: 0;
 }
 
 @media only screen and (max-width: 600px){

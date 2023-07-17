@@ -57,6 +57,29 @@ export default function Project() {
             </div>
             <div className="card details">
               <img
+                src="./Projects/Musicker.png"
+                alt="Image"
+                className="card-img"
+              />
+              <div className="card-content">
+                <h3 className="card-title">Musicker</h3>
+                <p className="card-text">
+                  Musicker is a python based music player application that
+                  allows users to play and manage their favorite songs. With a
+                  user-friendly interface and essential features like browsing
+                  music, creating playlists, and controlling playback, Musicker
+                  makes listening to music a delightful experience.
+                </p>
+                <a href="https://github.com/Nishant4coding/Musicker">
+                  <button>
+                    {" "}
+                    <b>Repository</b>{" "}
+                  </button>{" "}
+                </a>
+              </div>
+            </div>
+            <div className="card details">
+              <img
                 src="./Projects/task-todo.png"
                 alt="Image"
                 className="card-img"
@@ -143,7 +166,7 @@ export default function Project() {
                 </a>
               </div>
             </div>
-        
+
             {/* <div className="card details">
               <img src="./Projects/ytbp.png" alt="Image" className="card-img"/>
                   <div className="card-content">

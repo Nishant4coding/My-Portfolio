@@ -13,7 +13,7 @@ export default function Footer() {
   <a href="https://www.linkedin.com/in/nishant-srivastava-74a8b6205/" className='foot'><img   src="./Icons/linkedin.png"/></a>
   <a href="https://github.com/Nishant4coding" className='foot'><img   src="./Icons/github.png" /></a>
 </div>
-      <footer>All Right Reserved @ Nishant Srivastava</footer>
+      <footer>All Right Reserved @ <a className='link' href="https://www.linkedin.com/in/nishant-srivastava-/">Nishant Srivastava</a></footer>
       </div>
     </div>
     </div>

@@ -21,18 +21,23 @@ export default function Project() {
                 <h4>Technology Used</h4>
                 <div className="icons">
                   <img src="./Icons/react.png" alt="React" />
+                  <span className="icon-text">React</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/chakraui.png" alt="chakra" />
+                  <span className="icon-text">Chakra UI</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/html.png" alt="html" />
+                  <span className="icon-text">HTML 5</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/css.png" alt="Css" />
+                  <span className="icon-text">CSS 3</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/js.png" alt="js" />
+                  <span className="icon-text">Javascript</span>
                 </div>
                 </div>             
                 <div className="contents">
@@ -60,21 +65,27 @@ export default function Project() {
                 <h4>Technology Used</h4>
                 <div className="icons">
                   <img src="./Icons/react.png" alt="React" />
+                  <span className="icon-text">React</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/socket-io.png" alt="socket.io" />
+                  <span className="icon-text">Socket Io</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/html.png" alt="html" />
+                  <span className="icon-text">HTML</span>
                 </div>
                 <div className="icons">
-                  <img src="./Icons/nodejs.png" alt="nodejs" />
+                  <img src="./Icons/node.png" alt="nodejs" />
+                  <span className="icon-text">Nodejs</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/css.png" alt="Css" />
+                  <span className="icon-text">CSS</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/js.png" alt="js" />
+                  <span className="icon-text">JavaScript</span>
                 </div>
                 </div>             
                 <div className="contents">
@@ -101,12 +112,15 @@ export default function Project() {
                 <h4>Technology Used</h4>
                 <div className="icons">
                   <img src="./Icons/python.png" alt="python" />
+                  <span className="icon-text">Python</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/dearpigui.png" alt="dearppigui" />
+                  <span className="icon-text">DearPyGUI</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/tkinter.png" alt="tkinter" />
+                  <span className="icon-text">Tkinter</span>
                 </div>
                 
                 </div>             
@@ -134,21 +148,27 @@ export default function Project() {
                 <h4>Technology Used</h4>
                 <div className="icons">
                   <img src="./Icons/react.png" alt="React" />
+                  <span className="icon-text">React</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/localstorage.png" alt="ls" />
+                  <span className="icon-text">Local Storage</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/html.png" alt="html" />
+                  <span className="icon-text">HTML</span>
                 </div>
                 <div className="icons">
-                  <img src="./Icons/nodejs.png" alt="nodejs" />
+                  <img src="./Icons/node.png" alt="nodejs" />
+                  <span className="icon-text">Node</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/css.png" alt="Css" />
+                  <span className="icon-text">CSS</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/js.png" alt="js" />
+                  <span className="icon-text">JavaScript</span>
                 </div>
                 </div>             
                 <div className="contents">
@@ -176,15 +196,19 @@ export default function Project() {
                 <h4>Technology Used</h4>
                 <div className="icons">
                   <img src="./Icons/react.png" alt="React" />
+                  <span className="icon-text">React</span>
                 </div>                
                 <div className="icons">
                   <img src="./Icons/html.png" alt="html" />
+                  <span className="icon-text">HTML</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/css.png" alt="Css" />
+                  <span className="icon-text">CSS</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/js.png" alt="js" />
+                  <span className="icon-text">JavaScript</span>
                 </div>
                 </div>             
                 <div className="contents">
@@ -207,18 +231,23 @@ export default function Project() {
                 <h4>Technology Used</h4>
                 <div className="icons">
                   <img src="./Icons/react.png" alt="React" />
+                  <span className="icon-text">React</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/html.png" alt="html" />
+                  <span className="icon-text">HTML</span>
                 </div>
                 <div className="icons">
-                  <img src="./Icons/nodejs.png" alt="nodejs" />
+                  <img src="./Icons/node.png" alt="nodejs" />
+                  <span className="icon-text">Nodejs</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/css.png" alt="Css" />
+                  <span className="icon-text">CSS</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/js.png" alt="js" />
+                  <span className="icon-text">JavaScript</span>
                 </div>
                 </div>             
                 <div className="contents">
@@ -245,15 +274,19 @@ export default function Project() {
                 <h4>Technology Used</h4>
                 <div className="icons">
                   <img src="./Icons/react.png" alt="React" />
+                  <span className="icon-text">React</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/html.png" alt="html" />
+                  <span className="icon-text">HTML</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/css.png" alt="Css" />
+                  <span className="icon-text">CSS</span>
                 </div>
                 <div className="icons">
                   <img src="./Icons/js.png" alt="js" />
+                  <span className="icon-text">JavaSript</span>
                 </div>
                 </div>             
                 <div className="contents">

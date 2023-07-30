@@ -14,7 +14,7 @@ function Contact() {
         <div className="Info-2">
           <div className="success-message">
             <span className="heading">Message Sent Successfully!</span>
-            <p>Thank you for contacting us. We will get back to you soon.</p>
+            <p>Thank you for contacting me. I will get back to you soon.</p>
           </div>
         </div>
       </div>

@@ -32,6 +32,24 @@ img{
     font-size: 16px;
 }
 
+footer a{
+    color: rgb(255, 0, 115);
+    text-decoration: none;
+    font-weight: 600;
+   
+}
+
+footer a:hover {
+    text-decoration:underline;
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out; /* Darker shade of the original color on hover */
+  }
+
+  footer a:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Add a subtle blue border on focus */
+  }
+
 
 @media (max-width: 600px){
    

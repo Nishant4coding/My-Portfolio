@@ -42,10 +42,7 @@
   font-size: 16px;
   text-align: justify;
 }
-button{
-position: absolute;
-bottom: 0px;
-}
+
 
 .contents{
   border: 0px solid black;

@@ -12,7 +12,7 @@ export default function Technology() {
             <div className="icons">
               
               <img src="./Icons/c.png" alt="c" />
-              {/* <label htmlFor="./Icons/c.png"></label> */}
+              <span className="icon-text">C</span>
             </div>
             <div className="icons">
               <img src="./Icons/c++.png" alt="C++" />

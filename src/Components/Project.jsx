@@ -115,7 +115,7 @@ export default function Project() {
                   <span className="icon-text">Python</span>
                 </div>
                 <div className="icons">
-                  <img src="./Icons/dearpigui.png" alt="dearppigui" />
+                  <img src="./Icons/dearpygui.png" alt="dearppygui" />
                   <span className="icon-text">DearPyGUI</span>
                 </div>
                 <div className="icons">

@@ -13,7 +13,7 @@
     margin: 30px;
     overflow: hidden;
     width:320px;
-    height: 400px;
+    height: 350px;
     display: inline-block; 
     transition: transform 0.2s;
   }

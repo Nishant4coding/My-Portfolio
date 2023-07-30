@@ -14,7 +14,7 @@
   margin-bottom: 100px;
   overflow: hidden;
   width:350px;
-  height: 700px;
+  height: 600px;
   display: inline-block; 
   transition: transform 0.2s;
 }
@@ -58,6 +58,7 @@ bottom: 0px;
 .contents .icons img{
   margin: 8px;
   width: 35px;
+  cursor: pointer;
 }
 
 .icons .icon-text{

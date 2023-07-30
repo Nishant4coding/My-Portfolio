@@ -1,17 +1,19 @@
 .project{
   align-items: center;
-  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .card{
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  margin: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
   overflow: hidden;
-  width:320px;
+  width:350px;
   height: 620px;
   display: inline-block; 
   transition: transform 0.2s;
@@ -41,18 +43,34 @@
   text-align: justify;
 }
 button{
-  bottom: 0px;
-  bottom: 0;
+position: absolute;
+bottom: 0px;
+}
+
+.contents{
+  border: 0px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 0.2px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px){
   .card{
-    width: 600px;
+    width: 100%;
     height: auto;
     margin-left:0 ;
     margin-right:0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
+  .Info-2{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Info-2 h1{
+    text-align: center;
+  }
+
 }
 
 /* .card-btn {

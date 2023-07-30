@@ -119,6 +119,10 @@ ul.time-line.li::before{
   .familiar {
     flex-wrap: wrap;
   }
+  .Info-2 .profile-2 h1{
+    text-align: center;
+  }
+
   .profile-2 ul{
     margin-left: 20px;
     align-items: center;

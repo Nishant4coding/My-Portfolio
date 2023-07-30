@@ -1,6 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import "./Project.css";
+import Like from "./Like";
 export default function Project() {
   return (
     <div>
@@ -16,13 +17,29 @@ export default function Project() {
               />
               <div className="card-content">
                 <h3 className="card-title">Dev-Resume</h3>
-                <p className="card-text">
-                  "DevResume" a React.js and Chakra UI powered resume builder
-                  website tailored for developers. With its basic templates,
-                  DevResume simplifies the process of creating professional
-                  resumes, allowing developers to effectively highlight their
-                  skills and experience for better career opportunities.
-                </p>
+                <div className="contents">
+                <h4>Technology Used</h4>
+                <div className="icons">
+                  <img src="./Icons/react.png" alt="React" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/chakraui.png" alt="chakra" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/html.png" alt="html" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/css.png" alt="Css" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/js.png" alt="js" />
+                </div>
+                </div>             
+                <div className="contents">
+                <h4> Elevate Your Developer Resume Effortlessly</h4>
+                </div>
+
+                <Like />
                 <a href="https://nishant4coding.github.io/Dev-Resume/">
                   <button>
                     {" "}
@@ -39,14 +56,31 @@ export default function Project() {
               />
               <div className="card-content">
                 <h3 className="card-title">Meetup</h3>
-                <p className="card-text">
-                  Meetup is a real-time public chat app designed to connect
-                  users with random individuals in a public chat room. It
-                  enables users to engage in spontaneous conversations, make new
-                  friends, and discuss various topics in a dynamic and
-                  interactive environment, fostering a sense of community and
-                  social interaction.
-                </p>
+                <div className="contents">
+                <h4>Technology Used</h4>
+                <div className="icons">
+                  <img src="./Icons/react.png" alt="React" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/socket-io.png" alt="socket.io" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/html.png" alt="html" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/nodejs.png" alt="nodejs" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/css.png" alt="Css" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/js.png" alt="js" />
+                </div>
+                </div>             
+                <div className="contents">
+                <h4>Connect, Chat, Make Friends, Embrace Community.</h4>
+                </div>
+                <Like />
                 <a href="https://meetup-6wqi.onrender.com/">
                   <button>
                     {" "}
@@ -63,13 +97,23 @@ export default function Project() {
               />
               <div className="card-content">
                 <h3 className="card-title">Musicker</h3>
-                <p className="card-text">
-                  Musicker is a python based music player application that
-                  allows users to play and manage their favorite songs. With a
-                  user-friendly interface and essential features like browsing
-                  music, creating playlists, and controlling playback, Musicker
-                  makes listening to music a delightful experience.
-                </p>
+                <div className="contents">
+                <h4>Technology Used</h4>
+                <div className="icons">
+                  <img src="./Icons/python.png" alt="python" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/dearpigui.png" alt="dearppigui" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/tkinter.png" alt="tkinter" />
+                </div>
+                
+                </div>             
+                <div className="contents">
+                <h4> Your Ultimate Python Music Player</h4>
+                </div>
+                <Like />
                 <a href="https://github.com/Nishant4coding/Musicker">
                   <button>
                     {" "}
@@ -86,14 +130,31 @@ export default function Project() {
               />
               <div className="card-content">
                 <h3 className="card-title">Task-To-Do</h3>
-                <p className="card-text">
-                  Task-To-Do is a local storage based todo app designed to help
-                  users manage their tasks efficiently. With a clean and
-                  intuitive interface, users can create, organize, and
-                  prioritize tasks, set due dates, and mark tasks as complete.
-                  The app provides a convenient way to stay organized and
-                  increase productivity.
-                </p>
+                <div className="contents">
+                <h4>Technology Used</h4>
+                <div className="icons">
+                  <img src="./Icons/react.png" alt="React" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/localstorage.png" alt="ls" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/html.png" alt="html" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/nodejs.png" alt="nodejs" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/css.png" alt="Css" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/js.png" alt="js" />
+                </div>
+                </div>             
+                <div className="contents">
+                <h4>Streamline Your Tasks, Boost Productivity.</h4>
+                </div>
+                <Like />
                 <a href="https://nishant4coding.github.io/Task-Todo/">
                   <button>
                     {" "}
@@ -111,13 +172,25 @@ export default function Project() {
               />
               <div className="card-content">
                 <h3 className="card-title">Error-Tracker</h3>
-                <p className="card-text">
-                  Error-Tracker is a project built using React.js and leverages
-                  the React Diff Viewer library to compare code and identify
-                  differences. The main objective of Error-Tracker is to provide
-                  developers with an efficient tool for tracking errors and bugs
-                  in their codebase.
-                </p>
+                <div className="contents">
+                <h4>Technology Used</h4>
+                <div className="icons">
+                  <img src="./Icons/react.png" alt="React" />
+                </div>                
+                <div className="icons">
+                  <img src="./Icons/html.png" alt="html" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/css.png" alt="Css" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/js.png" alt="js" />
+                </div>
+                </div>             
+                <div className="contents">
+                <h4> Track Code Errors with React.js and React Diff Viewer.</h4>
+                </div>
+                <Like />
                 <a href="https://nishant4coding.github.io/Error-Tracker/">
                   <button>
                     {" "}
@@ -130,12 +203,28 @@ export default function Project() {
               <img src="./Projects/pg.png" alt="Image" className="card-img" />
               <div className="card-content">
                 <h3 className="card-title">Password-Generator</h3>
-                <p className="card-text">
-                  My password generator creates strong, random passwords with
-                  customizable length and character sets. It helps to increase
-                  online security by generating unique passwords for each
-                  account.{" "}
-                </p>
+                <div className="contents">
+                <h4>Technology Used</h4>
+                <div className="icons">
+                  <img src="./Icons/react.png" alt="React" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/html.png" alt="html" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/nodejs.png" alt="nodejs" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/css.png" alt="Css" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/js.png" alt="js" />
+                </div>
+                </div>             
+                <div className="contents">
+                <h4>Strengthen Online Security with Unique Passwords.</h4>
+                </div>
+                <Like />
                 <a href="https://github.com/Nishant4coding/Password-Generator">
                   <button>
                     {" "}
@@ -152,12 +241,25 @@ export default function Project() {
               />
               <div className="card-content">
                 <h3 className="card-title">Text-Custom</h3>
-                <p className="card-text">
-                  Text Custom is a ReactJS-based web app that allows users to
-                  easily convert text from uppercase to lowercase and remove
-                  extra spaces. It also provides a convenient ”Copy to
-                  Clipboard” function, streamlining the text editing process
-                </p>
+                <div className="contents">
+                <h4>Technology Used</h4>
+                <div className="icons">
+                  <img src="./Icons/react.png" alt="React" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/html.png" alt="html" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/css.png" alt="Css" />
+                </div>
+                <div className="icons">
+                  <img src="./Icons/js.png" alt="js" />
+                </div>
+                </div>             
+                <div className="contents">
+                <h4> Simplify Text Editing with ReactJS. Convert, Copy & Tidy Up</h4>
+                </div>
+                <Like />
                 <a href="https://nishant4coding.github.io/Text-Custom/">
                   <button>
                     {" "}

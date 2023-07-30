@@ -7,24 +7,27 @@ import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Experience from "./Components/Experience";
+import Like from "./Components/Like";
 
 function App() {
   return (
     <>
       <Navbar />
-    
+
       <Intro
         name="Nishant Srivastava"
         email="srivastava4nishant@gmail.com"
         occupation="Software Developer"
         image="./Nishant Srivastava.jpg"
       />
-<Technology/>
-<Experience/>
-<Project/>
+      <Technology />
+      <Experience />
+      <Project />
 
-    <Contact/>
-    <Footer/>
+      <Contact />
+      <Footer />
+{/* <Like/> */}
+      
     </>
   );
 }

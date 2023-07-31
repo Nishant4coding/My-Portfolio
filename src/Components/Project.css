@@ -12,9 +12,10 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 100px;
+  margin-top: 20px;
   overflow: hidden;
-  width:350px;
-  height: 600px;
+  width:500px;
+  height: 400px;
   display: inline-block; 
   transition: transform 0.2s;
 }
@@ -54,7 +55,7 @@
 
 .contents .icons img{
   margin: 8px;
-  width: 35px;
+  width:50px;
   cursor: pointer;
 }
 
@@ -79,12 +80,63 @@
   visibility: visible;
 }
 
+/* Project.css */
+
+/* Custom styles for carousel */
+
+
+/* Custom arrows */
+.custom-arrow {
+  position: absolute;
+  top: 40%;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 30px;
+  transform: translateY(-50%);
+  background-color: rgb(255, 0, 115);
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.3s;
+}
+
+.custom-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.custom-arrow-prev {
+  left: 0;
+}
+
+.custom-arrow-next {
+  right: 0;
+}
+
+
+.carousel .thumbs {
+  display: flex;
+  transition: all .15s ease-in;
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  list-style: none;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.carousel .control-dots .dot{
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 0, 115);;
+}
+
 @media only screen and (max-width: 600px){
   .card{
-    width: 100%;
+    width: 300px;
     height: auto;
-    margin-left:0 ;
-    margin-right:0;
     margin-bottom: 30px;
   }
   .Info-2{

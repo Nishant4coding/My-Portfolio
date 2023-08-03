@@ -16,6 +16,14 @@ function Experience() {
         <div className="experience">
            
             <div className="exp-card">
+              <img src="./Icons/gfg.png" alt="Image" className="card-img" />
+              <div className="card-content">
+                <h3 className="card-title">Technical Content Writer</h3>
+                <header>GeeksforGeeks</header>
+                <p className="text">August 2023-Present</p>
+              </div>
+            </div>
+            <div className="exp-card">
               <img src="./Icons/TULIP.jpg" alt="Image" className="card-img" />
               <div className="card-content">
                 <h3 className="card-title">Software Developer Intern</h3>

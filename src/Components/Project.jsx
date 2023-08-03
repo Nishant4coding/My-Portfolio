@@ -12,7 +12,7 @@ export default function Project() {
         <div className="Info-2">
           <h1>My Projects</h1>
           <div className="project">
-            <Carousel
+            {/* <Carousel
               className="crsl"
               showArrows={true}
               width={1000}
@@ -33,7 +33,7 @@ export default function Project() {
                   &gt;
                 </div>
               )}
-            >
+            > */}
               
               <div className="card details">
                 <img
@@ -345,7 +345,7 @@ export default function Project() {
                      <a href=""><button> <b>Repository</b> </button> </a>
              </div>
           </div> */}
-            </Carousel>
+            {/* </Carousel> */}
           </div>
         </div>
       </div>

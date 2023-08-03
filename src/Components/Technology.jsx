@@ -4,13 +4,12 @@ import "./Technology.css";
 export default function Technology() {
   return (
     <div className="main" id="skills">
-      <div className="Info-2" >
+      <div className="Info-2">
         <div className="profile-2">
           <h1>I am Familiar with</h1>
           <p>Programming Languages</p>
           <div className="familiar">
             <div className="icons">
-              
               <img src="./Icons/c.png" alt="c" />
               <span className="icon-text">C</span>
             </div>
@@ -48,7 +47,6 @@ export default function Technology() {
             <div className="icons">
               <img src="./Icons/html.png" alt="" />
               <span className="icon-text">HTML 5</span>
-              
             </div>
             <div className="icons">
               <img src="./Icons/css.png" alt="" />
@@ -93,22 +91,35 @@ export default function Technology() {
       </div>
       <div className="Info-2">
         <div className="profile-2">
-            <h1>Education</h1>
-                <p>Academics</p>
-            <ul className="time-line">
-                <li>
-                    <h3>Secondary</h3>
-                    <small> CBSE(2019)</small>
-                </li>
-                <li>
-                    <h3>Senior Secondary</h3>
-                    <small> CBSE(2021)</small>
-                </li>
-                <li>
-                    <h3>Bachelor's of Technology</h3>
-                    <small> 2021-present</small>
-                </li>
-            </ul>
+          <h1>Education</h1>
+          <div className="timeline">
+            <div className="timeline-item">
+              <div class="timeline-logo">
+                <img src="./Icons/rs.png" alt="School Logo" />
+              </div>
+              <h3>Secondary</h3>
+              
+              
+              <h3 style={{fontSize:"15px"}}>R.S. Convent School, Varanasi</h3>
+              <small> CBSE(2019)</small>
+            </div>
+            <div className="timeline-item">
+              <div class="timeline-logo">
+                <img src="./Icons/rs.png" alt="School Logo" />
+              </div>
+              <h3>Senior Secondary</h3>
+              <h3 style={{fontSize:"15px"}}>R.S. Convent School, Varanasi</h3>
+              <small> CBSE(2021)</small>
+            </div>
+            <div className="timeline-item">
+              <div class="timeline-logo">
+                <img src="./Icons/gu.png" alt="School Logo" />
+              </div>
+              <h3>Bachelor's of Technology</h3>
+              <h3 style={{fontSize:"15px"}}>Galgotias University, Greater Noida</h3>
+              <small> 2021-present</small>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -224,16 +224,18 @@ transform: scale(1.02);
   }
 
   .timeline-logo {
-    width: 60px;
     height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 60px;
   }
   small{
     display: block;
     text-align: end;
   }
-  h3{
+  .timeline-item h3{
     display: block;
-    text-align: end;
+    margin-left: 80px;
     
   }
 }

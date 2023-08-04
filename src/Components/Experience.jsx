@@ -24,7 +24,7 @@ function Experience() {
               </div>
             </div>
             <div className="exp-card">
-              <img src="./Icons/TULIP.jpg" alt="Image" className="card-img" />
+              <img src="./Icons/MoHUA.png" alt="Image" className="card-img" />
               <div className="card-content">
                 <h3 className="card-title">Software Developer Intern</h3>
                 <header>Ministry of Urban and Housing Affairs</header>

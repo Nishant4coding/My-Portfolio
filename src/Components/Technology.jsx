@@ -107,7 +107,7 @@ export default function Technology() {
               <div class="timeline-logo">
                 <img src="./Icons/rs.png" alt="School Logo" />
               </div>
-              <h3>Senior Secondary</h3>
+              <h3>Sr. Secondary</h3>
               <h3 style={{fontSize:"15px"}}>R.S. Convent School, Varanasi</h3>
               <small> CBSE(2021)</small>
             </div>
@@ -115,7 +115,7 @@ export default function Technology() {
               <div class="timeline-logo">
                 <img src="./Icons/gu.png" alt="School Logo" />
               </div>
-              <h3>Bachelor's of Technology</h3>
+              <h3>B.Tech CSE</h3>
               <h3 style={{fontSize:"15px"}}>Galgotias University, Greater Noida</h3>
               <small> 2021-present</small>
             </div>

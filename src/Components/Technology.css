@@ -225,13 +225,15 @@ transform: scale(1.02);
 
   .timeline-logo {
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    max-width: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 70px;
+  }
+  .timeline-logo img{
+    width: 70px;
   }
   small{
     display: block;
-    text-align: end;
   }
   .timeline-item h3{
     display: block;
